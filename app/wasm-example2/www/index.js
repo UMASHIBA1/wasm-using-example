@@ -1,6 +1,6 @@
 import targetData from "./randomDatas";
 
-import("../pkg/index.js").then((module) => {
+import("../pkg/wasm_example2").then((module) => {
 
 
   const app = document.getElementById("app");
